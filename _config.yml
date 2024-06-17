@@ -8,14 +8,12 @@ baseurl: "" # subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
     - text: Profile
       url: /about/
     - text: Experience
-      url: /experience/
+      url: /blog/
     - text: Education
-      url : /education/
+      url : /contact/
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
