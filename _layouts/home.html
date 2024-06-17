@@ -1,48 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-</head>
-<body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.subtitle }}</h2>
-    </header>
-    <nav>
-        <ul>
-            {% for link in site.urls %}
-            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-            {% endfor %}
-        </ul>
-    </nav>
-    <main>
-        <section id="intro">
-            <img src="{{ '/assets/img/hero_cover_img.jpg' | relative_url }}" alt="Hero Image">
-            <p>{{ site.description }}</p>
-        </section>
-        <section id="about">
-            <h3>About Me</h3>
-            <p>{{ site.author_bio }}</p>
-        </section>
-        <section id="projects">
-            <h3>Projects</h3>
-            <ul>
-                {% for project in site.author_project_details %}
-                <li>{{ project }}</li>
-                {% endfor %}
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>Contact me at <a href="mailto:{{ site.author_email }}">{{ site.author_email }}</a></p>
-        <ul>
-            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/{{ site.facebook_username }}">Facebook</a></li>
-        </ul>
-    </footer>
-</body>
-</html>
+---
+layout: full-width
+---
+
+<script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+    <!-- hero section-->
+    {%- include hero.html -%}
+    <div class="col-lg-8 offset-md-2">
+      {%- include recent_articles.html -%}
+    </div>
