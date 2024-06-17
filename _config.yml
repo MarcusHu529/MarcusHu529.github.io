@@ -1,19 +1,21 @@
 title: Weihang Hu
-subtitle: A future computer engineer
+subtitle: Computer engineer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-#url: "https://marcushu529.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://marcushu529.github.io" # base hostname & protocol for your site
+baseurl: "" # subpath of your site, e.g. /blog
 
 # Navigation
 urls:
+    - text: Home
+      url: /
     - text: Profile
-      url: /about
+      url: /about/
     - text: Experience
-      url: /blog
+      url: /experience/
     - text: Education
-      url : /contact
+      url : /education/
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
@@ -193,4 +195,4 @@ exclude:
 
 destination: ./build
 
-profile_image: "assets/img/chart.png"
+profile_image: "assets/chart.png"
