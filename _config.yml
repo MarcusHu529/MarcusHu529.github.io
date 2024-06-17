@@ -8,12 +8,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # Navigation
 urls:
-    - text: Profile
-      url: /about
-    - text: Experience
-      url: /blog
-    - text: Education
-      url : /contact
+    - text: Profile
+      url: /about
+    - text: Experience
+      url: /blog
+    - text: Education
+      url : /contact
+
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -28,41 +29,13 @@ typewrite-text: devlopr is a jekyll framework built for developers. You can edit
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
-author_work_experiences:
-            - company_name: Kellogg Hotel and Conference Center
-              company_url: https://kelloggcenter.com/
-              company_logo: kellogg.png
-              designation: Kitchen Porter
-              description: Worked on maintaining cleanliness and order in the kitchen, supporting chefs, and performing basic food preparation tasks.
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: false
+author_work_experiences: []
 
 # Education
-author_education_details:
-              - college_logo: msu.png
-                college_name: Michigan State University
-                college_url: https://msu.edu/
-                college_degree: Computer Science
-                description: Bachelor of Science
-                visibility: true
+author_education_details: []
 
 # Projects
-author_project_details:
-              - project_thumbnail: codegreen.png
-                project_title: Fetal State Predictor
-                project_description: This project aims for predicting the state of fetus inside the mother's womb.
-                project_url: https://github.com/MarcusHu529/Fetal-State-Predictor
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: false
+author_project_details: []
 
 # social links
 #twitter_username: johndoe
@@ -101,9 +74,9 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
+show_author_work_experiences: false
+show_author_education_details: false
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
@@ -219,6 +192,5 @@ exclude:
   - assets/bower_components/lightgallery/test/lightgallery.html
   - assets/bower_components/masonry-layout/README.md
   - assets/bower_components/imagesloaded/README.md
-
 
 destination: ./build
