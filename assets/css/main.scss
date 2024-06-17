@@ -6,3 +6,90 @@
 @import "devlopr";
 
 /* custom css goes below */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    color: #6c757d;
+}
+
+nav {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about,
+#projects {
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #343a40;
+}
