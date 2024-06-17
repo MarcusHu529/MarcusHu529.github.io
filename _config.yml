@@ -11,9 +11,9 @@ urls:
     - text: Profile
       url: /about
     - text: Experience
-      url: /Experience
+      url: /blog
     - text: Education
-      url : /Education
+      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
