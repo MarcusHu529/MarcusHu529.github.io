@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Weihang Hu
+subtitle: A future computer engineer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://github.com/MarcusHu529" # the base hostname & protocol for your site, e.g. https://github.com/MarcusHu529
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -26,7 +26,7 @@ urls:
 
 author_logo: profile.png
 author: Weihang Hu
-author_bio: Hi, my name is Weihang Hu. I am currently a sophomore student, soon to be a junior next semester. I have a strong interest in game development, and I often spend my free time exploring and studying Unity. Additionally, I enjoy designing with LEGO. The process of creating and building with LEGO always brings me joy and satisfaction.
+author_bio: I am currently a sophomore student, soon to be a junior next semester. I have a strong interest in game development, and I often spend my free time exploring and studying Unity. Additionally, I enjoy designing with LEGO. The process of creating and building with LEGO always brings me joy and satisfaction.
 author_email: "huweiha1@msu.edu"
 author_location: China
 author_website_url: "MarcusHu529.github.io"
