@@ -37,6 +37,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 author_work_experiences:
             - company_name: Kellogg Hotel and Conference Center
               company_url: https://kelloggcenter.com/
+              company_logo: kellogg.png
               designation: Kitchen Porter
               description: Worked on maintaining cleanliness and order in the kitchen, supporting chefs, and performing basic food preparation tasks.
               visibility: true
