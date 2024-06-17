@@ -37,7 +37,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 author_work_experiences:
             - company_name: Kellogg Hotel and Conference Center
               company_url: https://kelloggcenter.com/
-              company_logo: kellogg.png
+              company_logo: kellogg .png
               designation: Kitchen Porter
               description: Worked on maintaining cleanliness and order in the kitchen, supporting chefs, and performing basic food preparation tasks.
               visibility: true
@@ -50,11 +50,11 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: msu.png
+                college_name: Michigan State University
+                college_url: https://msu.edu/
+                college_degree: Computer Science
+                description: Bachelor of Science
                 visibility: true
 
 # Projects
