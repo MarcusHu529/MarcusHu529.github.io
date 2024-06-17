@@ -129,7 +129,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
-  - jekyll-redirect-from
+
 
 # Jekyll Admin Config
 jekyll_admin:
