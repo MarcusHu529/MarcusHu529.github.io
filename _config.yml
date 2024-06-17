@@ -35,8 +35,8 @@ author_work_experiences:
               description: This is a game developed using Unity.
               visibility: true
             - company_name: Lego Tank
-              company_logo: microsoft.png
-              description: Worked on various Azure Cloud Products
+              company_logo: lego1.png
+              description: This is a object 140 designed on lego studio.
               visibility: true
 
 # Education
