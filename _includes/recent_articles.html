@@ -1,15 +1,15 @@
 <section id="recent-articles">
   <div id="recent-articles-header">
     <div id="recent-articles-title">
-      <h1 class="card-title">Recent Articles</h1>
+      <h1 class="card-title" style="display: none;">Recent Articles</h1>
     </div>
-    <div id="recent-articles-show-all">
+    <div id="recent-articles-show-all" style="display: none;">
       <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
     </div>
   </div>
   <br />
 
-  <ul>
+  <ul style="display: none;">
     {% for post in site.posts limit:5 %}
     <li class="article-card">
       <a href="{{post.url}}" class="article-card-link">
