@@ -3,7 +3,7 @@ subtitle: Computer engineer
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website.
 
-url: "https://marcushu529.github.io/#/" # base hostname & protocol for your site
+url: "https://marcushu529.github.io" # base hostname & protocol for your site
 baseurl: "" # subpath of your site, e.g. /blog
 
 # Navigation
