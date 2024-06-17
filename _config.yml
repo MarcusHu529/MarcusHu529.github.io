@@ -12,7 +12,7 @@ urls:
       url: /about
     - text: Experience
       url: /blog
-    - text: Contact
+    - text: Education
       url : /contact
 
 
