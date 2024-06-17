@@ -9,7 +9,7 @@ baseurl: "" # subpath of your site, e.g. /blog
 # Navigation
 urls:
     - text: Profile
-      url: /about/
+      url: //
     - text: Experience
       url: /blog/
     - text: Education
@@ -138,7 +138,7 @@ jekyll_admin:
   #   - staticfiles
   #   - datafiles
   #   - configuration
-  homepage: "posts"
+  homepage: "about"
 
 
 # Exclude from processing.
