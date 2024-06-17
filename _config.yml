@@ -24,7 +24,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: Profile1.png
 author: Weihang Hu
 author_bio: Hi, my name is Weihang Hu. I am currently a sophomore student, soon to be a junior next semester. I have a strong interest in game development, and I often spend my free time exploring and studying Unity. Additionally, I enjoy designing with LEGO. The process of creating and building with LEGO always brings me joy and satisfaction.
 author_email: "huweiha1@msu.edu"
@@ -73,8 +73,8 @@ author_project_details:
 # social links
 #twitter_username: johndoe
 github_username:  MarcusHu529
-facebook_username: Marcus
-linkedin_username: johndoe
+facebook_username: flol.yuko
+linkedin_username: weihang-hu-b6b463254
 #behance_username: johndoe
 instagram_username: qyzmms
 #medium_username: johndoe
