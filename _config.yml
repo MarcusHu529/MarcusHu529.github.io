@@ -9,7 +9,7 @@ baseurl: "" # subpath of your site, e.g. /blog
 # Navigation
 urls:
     - text: Profile
-      url: /about/
+      url: //
     - text: Experience
       url: /blog/
     - text: Education
@@ -129,9 +129,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
-  - jekyll-redirect-from
 
+# Jekyll Admin Config
 jekyll_admin:
+  # hidden_links:
+  #   - posts
+  #   - pages
+  #   - staticfiles
+  #   - datafiles
+  #   - configuration
   homepage: "about"
 
 
