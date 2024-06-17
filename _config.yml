@@ -20,7 +20,6 @@ urls:
 author_logo: Profile1.jpg
 author: Weihang Hu
 author_bio: Hi, my name is Weihang Hu. I am currently a sophomore student, soon to be a junior next semester. I have a strong interest in game development, and I often spend my free time exploring and studying Unity. Additionally, I enjoy designing with LEGO. The process of creating and building with LEGO always brings me joy and satisfaction.
-<img src="{{ site.baseurl }}/assets/chart.png" alt="Chart">
 author_email: "huweiha1@msu.edu"
 author_location: China
 author_website_url: "MarcusHu529.github.io"
